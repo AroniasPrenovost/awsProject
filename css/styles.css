@@ -29,21 +29,20 @@ h6 {
   background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover; }
 
-.navbarTop {
-  text-align: right;
-  width: 100%;
-  font-size: 15px;
-  padding-top: 15px; }
-
 .intro-message {
   position: relative;
-  padding-top: 20%;
+  padding-top: 7.5%;
   padding-bottom: 20%; }
 
 .intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(255, 100, 200, 0.6);
-  font-size: 5em; }
+  font-size: 4em; }
+
+.intro-message > h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0; }
 
 .intro-divider {
   width: 400px;
@@ -52,6 +51,10 @@ h6 {
 
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(255, 100, 200, 0.6); }
+
+.logo img {
+  width: 105px;
+  height: 200px; }
 
 @media (max-width: 767px) {
   .intro-message {
@@ -68,6 +71,13 @@ h6 {
     width: 100%; } }
 
 .network-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white; }
+
+.calltoaction {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
@@ -106,14 +116,15 @@ h6 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em;
-  width: 40%; }
+  width: 1000px; }
 
 .banner ul {
   margin-bottom: 0; }
 
 .banner-social-buttons {
   float: right;
-  margin-top: 0; }
+  margin-top: 0;
+  color: grey; }
 
 .quotebox {
   position: relative;
@@ -155,14 +166,24 @@ background-repeat: no-repeat;
   float: left;
   width: 25%; }
 
+footer h1 {
+  color: orange; }
+
 footer h2 {
   color: white; }
 
+footer h3 {
+  color: orange; }
+
 footer p {
-  color: #d35400; }
+  color: orange; }
 
 footer {
   background-color: black; }
+
+.underline {
+  color: orange;
+  border-bottom: 1px solid orange; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {

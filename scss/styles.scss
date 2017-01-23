@@ -41,9 +41,6 @@ background-size: cover;
     padding-top: 15px;
 
 }
-.navbarTop:hover {
-    color: red;
-}
 
 
 
@@ -60,6 +57,7 @@ background-size: cover;
     font-size: 5em;
 }
 
+
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
@@ -67,8 +65,10 @@ background-size: cover;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(400,100,200,0.6);
 }
+
+
 
 @media(max-width:767px) {
     .intro-message {
@@ -76,7 +76,7 @@ background-size: cover;
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 6em;
     }
 
     ul.intro-social-links > li {
@@ -92,13 +92,15 @@ background-size: cover;
     .intro-middle {
         width: 100%;
     }
+
 }
 
 .network-name {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     letter-spacing: 2px;
+    color: white;
 }
 
 .content-section-a {
@@ -201,7 +203,20 @@ background-repeat: no-repeat;
 .copylogo {
     float: left;
     width: 25%;
+
 }
+
+footer h2 {
+    color: white;
+}
+footer p {
+    color: #d35400;
+}
+
+footer {
+    background-color: black;
+}
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
@@ -231,9 +246,9 @@ background-repeat: no-repeat;
 
 footer {
     padding: 85px 0;
-    background-color: #f8f8f8;
 }
 
 p.copyright {
     margin: 15px 0 0;
+    color: brown;
 }

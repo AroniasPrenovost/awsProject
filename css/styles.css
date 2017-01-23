@@ -81,6 +81,11 @@ h6 {
   background-color: #f8f8f8; }
 
 .content-section-b {
+  padding: 55px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7; }
+
+.content-section-c {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7; }
@@ -102,7 +107,8 @@ h6 {
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em; }
+  font-size: 3em;
+  width: 40%; }
 
 .banner ul {
   margin-bottom: 0; }
@@ -117,7 +123,7 @@ h6 {
   height: 240px;
   float: left;
   margin: 0 0 0 0;
-  background: green;
+  background: transparent;
   /*
 background-image: url(../img/busMD.jpg);
 background-image: cover;
@@ -127,13 +133,29 @@ background-repeat: no-repeat;
 #quote {
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: 200px;
   color: red;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 60px 0 10px 0;
-  font-size: 18px;
-  font-weight: 700; }
+  font-size: 20px;
+  font-weight: 500; }
+
+.schedule {
+  float: left;
+  width: 25%; }
+
+.call {
+  float: left;
+  width: 25%; }
+
+.address {
+  float: left;
+  width: 25%; }
+
+.copylogo {
+  float: left;
+  width: 25%; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
@@ -150,7 +172,8 @@ background-repeat: no-repeat;
     margin-bottom: 20px;
     padding: 0; }
   ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0; } }
+    margin-bottom: 0;
+    width: 50%; } }
 
 footer {
   padding: 85px 0;

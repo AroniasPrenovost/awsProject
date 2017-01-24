@@ -25,11 +25,11 @@ h6 {
 }
 
 .intro-content {
-padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-padding-bottom: 50px;
+padding-top: 230px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+padding-bottom: 0px;
 text-align: center;
 color: #f8f8f8;
-background:  url(../img/intro-bg.jpg) no-repeat center center;
+background:  url(../img/barber-mh.jpg) no-repeat center;
 background-size: cover;
 }
 
@@ -64,10 +64,7 @@ background-size: cover;
 }
 
 
-.logo img {
-    width: 105px;
-    height: 200px;
-}
+
 
 
 
@@ -105,13 +102,6 @@ background-size: cover;
     color: white;
 }
 
-.calltoaction {
-        text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: white;
-}
 
 .content-section-a {
     padding: 50px 0;
@@ -143,7 +133,7 @@ background-size: cover;
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/overview-img.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -161,7 +151,7 @@ background-size: cover;
 .banner-social-buttons {
     float: right;
     margin-top: 0;
-    color: grey;
+    color: #e7e7e7;;
 
 }
 
@@ -218,23 +208,23 @@ background-repeat: no-repeat;
 }
 
 footer h1 {
-  color: orange;
+  color: blue;
 }
 
 footer h2 {
-    color: white;
+    color: black;
 }
 
 footer h3 {
-  color: orange;
+  color: blue;
 }
 
 footer p {
-    color: orange;
+    color: black;
 }
 
 footer {
-    background-color: black;
+    background-color: silver;
 }
 
 .underline 

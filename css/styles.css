@@ -21,12 +21,12 @@ h6 {
   font-weight: 400; }
 
 .intro-content {
-  padding-top: 50px;
+  padding-top: 230px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/barber-mh.jpg) no-repeat center;
   background-size: cover; }
 
 .intro-message {
@@ -52,10 +52,6 @@ h6 {
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(255, 100, 200, 0.6); }
 
-.logo img {
-  width: 105px;
-  height: 200px; }
-
 @media (max-width: 767px) {
   .intro-message {
     padding-bottom: 15%; }
@@ -71,13 +67,6 @@ h6 {
     width: 100%; } }
 
 .network-name {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: white; }
-
-.calltoaction {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
@@ -109,7 +98,7 @@ h6 {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: url(../img/overview-img.jpg) no-repeat center center;
   background-size: cover; }
 
 .banner h2 {
@@ -124,7 +113,7 @@ h6 {
 .banner-social-buttons {
   float: right;
   margin-top: 0;
-  color: grey; }
+  color: #e7e7e7; }
 
 .quotebox {
   position: relative;
@@ -167,19 +156,19 @@ background-repeat: no-repeat;
   width: 25%; }
 
 footer h1 {
-  color: orange; }
+  color: blue; }
 
 footer h2 {
-  color: white; }
+  color: black; }
 
 footer h3 {
-  color: orange; }
+  color: blue; }
 
 footer p {
-  color: orange; }
+  color: black; }
 
 footer {
-  background-color: black; }
+  background-color: silver; }
 
 .underline {
   color: orange;

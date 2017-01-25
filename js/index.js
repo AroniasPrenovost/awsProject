@@ -14,7 +14,7 @@ quotesArr[8] = '<span style="font-style:italic" "font-size:20px">"Design and pro
 
 
 // cycle through the quotes
-setInterval(displayDetails, 3500);
+setInterval(displayDetails, 5500);
 
 function displayDetails(){
 	var randomQuote = Math.floor(Math.random() * (quotesArr.length - 0));

@@ -63,12 +63,6 @@ background-size: cover;
     text-shadow: 2px 2px 3px rgba(400,100,200,0.6);
 }
 
-
-
-
-
-
-
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -131,30 +125,35 @@ background-size: cover;
 }
 
 .banner {
-    padding: 200px 0;
-    color: #f8f8f8;
+    padding: 100px 0;
+
     background: url(../img/overview-img.jpg) no-repeat center center;
     background-size: cover;
 }
 
-
-
-
-
 #quote {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 200px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin: 0px 200px 0px 300px;
-    font-size: 24px;  
-    font-weight: 500; 
+    margin: 0px 0px 0px 300px;
+    font-size: 22px;  
+    font-weight: 400; 
 }
 
 
+.footer {
+    padding-top: 20px;
 
+    background-size: cover;
+    background-color: silver;
+}
+
+footer p {
+    color: black;
+}
 
 .schedule {
     float: left;
@@ -174,13 +173,15 @@ background-size: cover;
 }
 
 .copylogo {
-    float: left;
+    float: right;
     width: 25%;
-
+}
+.socialfooter {
+    margin-left: 185px;
 }
 
 footer h1 {
-  color: blue;
+    color: blue;
 }
 
 footer h2 {
@@ -188,15 +189,7 @@ footer h2 {
 }
 
 footer h3 {
-  color: blue;
-}
-
-footer p {
-    color: black;
-}
-
-footer {
-    background-color: silver;
+    color: blue;
 }
 
 .underline 
@@ -204,9 +197,6 @@ footer {
     color: orange;
     border-bottom: 1px solid orange;
 }
-
-
-
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
@@ -234,11 +224,7 @@ footer {
     }
 }
 
-footer {
-    padding: 85px 0;
-}
-
 p.copyright {
     margin: 15px 0 0;
-    color: brown;
+    color: blue;
 }

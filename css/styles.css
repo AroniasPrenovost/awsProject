@@ -36,7 +36,7 @@ h6 {
 
 .intro-message > h1 {
   margin: 0;
-  text-shadow: 2px 2px 3px rgba(255, 100, 200, 0.6);
+  text-shadow: 2px 2px 3px #466d8f;
   font-size: 4em; }
 
 .intro-message > h3 {
@@ -50,13 +50,14 @@ h6 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
 .intro-message > h3 {
-  text-shadow: 2px 2px 3px rgba(255, 100, 200, 0.6); }
+  text-shadow: 2px 2px 3px #466d8f; }
 
 @media (max-width: 767px) {
   .intro-message {
     padding-bottom: 15%; }
   .intro-message > h1 {
-    font-size: 6em; }
+    font-size: 6em;
+    color: #466d8f; }
   ul.intro-social-links > li {
     display: block;
     margin-bottom: 20px;
@@ -77,10 +78,16 @@ h6 {
   padding: 50px 0;
   background-color: #f8f8f8; }
 
+.content-section-a h2 {
+  color: #466d8f; }
+
 .content-section-b {
   padding: 55px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7; }
+
+.content-section-b h2 {
+  color: #466d8f; }
 
 .content-section-c {
   padding: 50px 0;
@@ -97,8 +104,17 @@ h6 {
 
 .banner {
   padding: 100px 0;
-  background: url(../img/overview-img.jpg) no-repeat center center;
+  background: url(../img/ov-version2.jpg) no-repeat center center;
   background-size: cover; }
+
+.stripe {
+  padding: 25px 0px;
+  background-color: #f8f8f8;
+  background-size: cover;
+  width: 100%; }
+
+.stripe p {
+  color: #34495e; }
 
 #quote {
   position: relative;
@@ -108,48 +124,48 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 0px 0px 0px 300px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400; }
 
 .footer {
   padding-top: 20px;
   background-size: cover;
-  background-color: silver; }
-
-footer p {
-  color: black; }
+  background-color: #34495e; }
 
 .schedule {
   float: left;
-  width: 25%; }
+  width: 25%;
+  color: #bdc3c7; }
 
 .call {
   float: left;
-  width: 25%; }
+  width: 25%;
+  color: #f8f8f8; }
+
+.call h2 {
+  color: #bdc3c7; }
 
 .address {
   float: left;
-  width: 25%; }
+  width: 25%;
+  color: #f8f8f8; }
+
+.address h2 {
+  color: #bdc3c7; }
 
 .copylogo {
   float: right;
-  width: 25%; }
+  width: 25%;
+  color: #bdc3c7; }
 
 .socialfooter {
-  margin-left: 185px; }
-
-footer h1 {
-  color: blue; }
-
-footer h2 {
-  color: black; }
-
-footer h3 {
-  color: blue; }
+  margin-left: 185px;
+  padding-top: 80px; }
 
 .underline {
-  color: orange;
-  border-bottom: 1px solid orange; }
+  color: #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  font-size: 16px; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
@@ -170,5 +186,5 @@ footer h3 {
     width: 50%; } }
 
 p.copyright {
-  margin: 15px 0 0;
-  color: blue; }
+  position: relative;
+  margin: 15px 0 0; }

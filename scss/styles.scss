@@ -144,11 +144,10 @@ background-size: cover;
     background-color: #f8f8f8;
     background-size: cover;
     width:100%;
-
 }
 
 .stripe p {
-   color:  #34495e;
+    color:  #34495e;
 }
 
 #quote {
@@ -200,14 +199,30 @@ color: #f8f8f8;  // this is actually the address
 }
 
 .copylogo {
+
     float: right;
     width: 25%;
     color:  #bdc3c7;
 }
+
+
 .socialfooter {
-    margin-left: 185px;
-    padding-top: 80px;
+    position: inline;
+    height: 200px;
+    width: 100%;
+    margin-left: 40%;
+    padding-top: 140px;
 }
+
+.socialfooter img:nth-child(1) {
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+}
+
+
 
 .underline 
 {

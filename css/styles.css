@@ -52,6 +52,35 @@ h6 {
 .intro-message > h3 {
   text-shadow: 2px 2px 3px #466d8f; }
 
+.button .button1 {
+  padding-left: 10px; }
+
+.button {
+  background-color: #f8f8f8;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 1px solid #34495e;
+  border-radius: 4%; }
+
+.button1:hover {
+  background-color: #34495e;
+  color: white; }
+
 @media (max-width: 767px) {
   .intro-message {
     padding-bottom: 15%; }
@@ -113,8 +142,10 @@ h6 {
   background-size: cover;
   width: 100%; }
 
-.stripe p {
-  color: #34495e; }
+.stripe h4 {
+  padding-top: 10px;
+  color: #34495e;
+  text-align: center; }
 
 #quote {
   position: relative;
@@ -134,46 +165,56 @@ h6 {
 
 .schedule {
   float: left;
-  width: 25%;
-  color: #bdc3c7; }
+  width: 30%;
+  color: #bdc3c7;
+  padding-left: 30px; }
 
 .call {
   float: left;
-  width: 25%;
-  color: #f8f8f8; }
+  width: 30%;
+  color: #f8f8f8;
+  padding-left: 75px; }
 
 .call h2 {
   color: #bdc3c7; }
 
 .address {
   float: left;
-  width: 25%;
-  color: #f8f8f8; }
+  width: 30%;
+  color: #f8f8f8;
+  padding-left: 25px; }
 
 .address h2 {
   color: #bdc3c7; }
 
-.copylogo {
-  float: right;
-  width: 25%;
-  color: #bdc3c7; }
+.striper {
+  padding: 0px 0px;
+  background-color: #34495e;
+  background-size: cover;
+  width: 100%; }
 
 .socialfooter {
-  position: inline;
-  height: 200px;
+  height: 40px;
   width: 100%;
-  margin-left: 40%;
-  padding-top: 140px; }
+  padding-left: 520px;
+  padding-top: 0px;
+  padding-bottom: 5px; }
 
-.socialfooter img:nth-child(1) {
-  position: relative;
-  width: 40px;
-  height: 40px; }
+.striper img {
+  vertical-align: center;
+  width: 30px;
+  height: 30px; }
+
+.striper p {
+  padding-top: 10px;
+  text-align: center;
+  color: #f8f8f8;
+  width: 100%; }
 
 .underline {
   color: #bdc3c7;
   border-bottom: 1px solid #bdc3c7;
-  font-size: 16px; }
+  font-size: 18px; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
@@ -192,7 +233,3 @@ h6 {
   ul.banner-social-buttons > li:last-child {
     margin-bottom: 0;
     width: 50%; } }
-
-p.copyright {
-  position: relative;
-  margin: 15px 0 0; }

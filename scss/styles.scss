@@ -42,13 +42,14 @@ background-size: cover;
 
 .intro-message > h1 {
     margin: 0;
+    padding-bottom: 40px;
     text-shadow: 2px 2px 3px rgb(70,109,143);
     font-size: 4em;
 }
 
 .intro-message > h3 {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin: 0;
 }
 
@@ -207,14 +208,14 @@ background-size: cover;
 
 .schedule {
     float: left;
-    width: 30%;
+    width: 32%;
     color: #bdc3c7;
       padding-left: 30px;   
 }
 
 .call {
     float: left;
-    width: 30%;
+    width: 32%;
 
     color:#f8f8f8;
       padding-left: 75px;        
@@ -226,7 +227,7 @@ background-size: cover;
 
 .address {
     float: left;
-    width: 30%;
+    width: 35%;
 color: #f8f8f8;  // this is actually the address 
     padding-left: 25px;   
 
@@ -239,7 +240,7 @@ color: #f8f8f8;  // this is actually the address
 
 
 .striper {
-    padding: 0px 0px;
+    padding: 0px 10px;
     background-color:#34495e;
     background-size: cover;
     width:100%;
@@ -261,19 +262,15 @@ color: #f8f8f8;  // this is actually the address
     height: 30px;
 }
 
-
-
 .striper p {
 padding-top: 10px;
+margin-bottom: 5px;
     text-align: center;
     color:  #f8f8f8;
     width: 100%;
 }
 
-
-
-.underline 
-{
+.underline  {
     color:  #bdc3c7;
     border-bottom: 1px solid #bdc3c7;
     font-size: 18px;

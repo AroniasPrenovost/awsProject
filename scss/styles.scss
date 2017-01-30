@@ -25,10 +25,10 @@ h6 {
 }
 
 .intro-content {
-padding-top: 210px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+padding-top: 310px; 
 padding-bottom: 0px;
 text-align: center;
-color: #f8f8f8;
+color: white;
 background:  url(../img/barber-mh.jpg) no-repeat center;
 background-size: cover;
 }
@@ -36,21 +36,15 @@ background-size: cover;
 
 .intro-message {
     position: relative;
-    padding-top: 7.5%;
-    padding-bottom: 20%;
+    padding-top: 5.5%;
+    padding-bottom: 12%;
 }
 
 .intro-message > h1 {
     margin: 0;
-    padding-bottom: 40px;
-    text-shadow: 2px 2px 3px rgb(70,109,143);
-    font-size: 4em;
-}
-
-.intro-message > h3 {
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin: 0;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 1.0em;
 }
 
 
@@ -94,14 +88,6 @@ background-size: cover;
     background-color: #f8f8f8;
     color: black;
 }
-
-/*
-#34495e
-
-#f8f8f8 // grey 
-
-*/
-
 
 @media(max-width:767px) {
     .intro-message {
@@ -242,12 +228,13 @@ color: #f8f8f8;  // this is actually the address
 
 .address h2 {
     color:  #bdc3c7;
+    padding-bottom: 15px;
 }
 
 
 
 .striper {
-    padding: 0px 10px;
+    padding: 0px 15px;
     background-color:#34495e;
     background-size: cover;
     width:100%;
@@ -270,8 +257,8 @@ color: #f8f8f8;  // this is actually the address
 }
 
 .striper p {
-padding-top: 10px;
-margin-bottom: 5px;
+padding-top: 16px;
+margin-bottom: 18px;
     text-align: center;
     color:  #f8f8f8;
     width: 100%;
@@ -279,15 +266,24 @@ margin-bottom: 5px;
 
 .underline  {
     color:  #bdc3c7;
-    border-bottom: 1px solid #bdc3c7;
-    font-size: 20px;
+    border-bottom: none;
+   
 }
+
+            .intro-message > h1 {
+
+    padding-bottom: 40px;
+
+    font-size: 4em;
+    }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
+
+
 }
 
 @media(max-width:767px) {
@@ -307,5 +303,8 @@ margin-bottom: 5px;
         margin-bottom: 0;
         width: 50%;
     }
+
+
+
 }
 

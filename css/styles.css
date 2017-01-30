@@ -58,9 +58,8 @@ h6 {
 
 .button {
   background-color: #f8f8f8;
-  /* Green */
   border: none;
-  color: white;
+  color: black;
   padding: 12px 12px;
   text-align: center;
   text-decoration: none;
@@ -73,15 +72,21 @@ h6 {
   cursor: pointer; }
 
 .button1 {
-  background-color: white;
-  color: black;
+  background-color: #34495e;
+  color: white;
   border: 1px solid #34495e;
   border-radius: 4%; }
 
 .button1:hover {
-  background-color: #34495e;
-  color: white; }
+  background-color: #f8f8f8;
+  color: black; }
 
+/*
+#34495e
+
+#f8f8f8 // grey 
+
+*/
 @media (max-width: 767px) {
   .intro-message {
     padding-bottom: 15%; }
@@ -203,8 +208,8 @@ h6 {
 
 .striper img {
   vertical-align: center;
-  width: 30px;
-  height: 30px; }
+  width: 40px;
+  height: 40px; }
 
 .striper p {
   padding-top: 10px;
@@ -216,7 +221,7 @@ h6 {
 .underline {
   color: #bdc3c7;
   border-bottom: 1px solid #bdc3c7;
-  font-size: 18px; }
+  font-size: 20px; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {

@@ -40,7 +40,6 @@ h6 {
     padding-top: 5.5%;
     padding-bottom: 12%;
     margin-bottom: 100px;
-
 }
 
 .intro-message > h1 {
@@ -72,7 +71,6 @@ h6 {
 -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 cursor: pointer;
-
 }
 
 .button1 {
@@ -88,7 +86,7 @@ cursor: pointer;
     color: black;
 }
 
-// hacky mobile fixing 
+// mobile styling 
 @media screen and (max-width: 736px) {
 
     .footer {
@@ -111,13 +109,10 @@ cursor: pointer;
         width: 100%;
     }
     .mobilefooter h1, h2, p {
-
         width: 100%;
         color: white;
         height: 8px;
     }
-
-
 
     .mobilefooter h2 {
         color: #bdc3c7;
@@ -129,7 +124,7 @@ cursor: pointer;
     .mobilefooter img {
         height: 50px;
         width:50px;
-        margin-left: 75%;
+        margin-left: 85%;
         margin-bottom: -65px;
     }
     iframe {
@@ -143,7 +138,8 @@ cursor: pointer;
     }
     .copyw p {
         color:#f8f8f8;
-
+padding-bottom: 20px;
+font-size: 12px;
     }
     h2.section-heading {
         width: 100%;
@@ -177,15 +173,13 @@ cursor: pointer;
         margin: 0px auto 0px 0px;
         display: none; 
     }
-
     .button1 {
         width: 100%;
         margin-left: 0px;
         margin-top: 20px;
     }
-
 }
-// 00000000000000000000000000000000000000
+
 @media screen and (min-width: 736px) {
     .mobilefooter {
         visibility: hidden;
@@ -195,7 +189,6 @@ cursor: pointer;
         display: none; 
     }
 }
-
 
 @media(max-width:767px) {
     .intro-message {
@@ -230,7 +223,6 @@ cursor: pointer;
     letter-spacing: 2px;
     color: white;
 }
-
 
 .content-section-a {
     padding: 50px 0;
@@ -284,7 +276,6 @@ cursor: pointer;
     padding-top: 10px;
     color:  #34495e;
     text-align:center;
-
 }
 
 #quote {
@@ -297,7 +288,6 @@ cursor: pointer;
     margin: 0px 0px 0px 300px;
     font-size: 20px;  
     font-weight: 400; 
-
 }
 
 .footer {
@@ -315,10 +305,13 @@ cursor: pointer;
 
 .call {
     float: left;
-
-
     color:#f8f8f8;
-    padding-left: 75px;        
+    padding-left: 20px;   
+    padding-right: 45px;     
+}
+
+iframe {
+    padding-top: 28px;
 }
 
 .call h2 {
@@ -330,7 +323,6 @@ cursor: pointer;
     width: 40%;
 color: #f8f8f8;  // this is actually the address 
 padding-left: 30px;   
-
 }
 
 .address h2 {
@@ -345,14 +337,11 @@ padding-left: 30px;
     width:100%;
 }
 .socialfooter {
-
     height: 40px;
     width: 100%;
-
     padding-left: 520px;   
     padding-top:0px;
     padding-bottom: 5px;
-
 }
 
 .striper img {

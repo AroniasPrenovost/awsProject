@@ -250,7 +250,7 @@ font-size: 12px;
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .section-heading-spacer {
@@ -272,7 +272,7 @@ font-size: 12px;
     width:100%;
 }
 
-.stripe h4 {
+.stripe h4 { 
     padding-top: 10px;
     color:  #34495e;
     text-align:center;
@@ -380,6 +380,8 @@ padding-left: 30px;
         margin-top: 15px;
     }
 
+
+
 }
 
 @media(max-width:767px) {
@@ -399,5 +401,7 @@ padding-left: 30px;
         margin-bottom: 0;
         width: 50%;
     }
+
+
 
 }

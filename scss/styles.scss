@@ -147,11 +147,9 @@ font-size: 12px;
     }
 
     p.lead {
-
         width: 100%;
         height: 100%;
         color:black;
-
     }
 
     .space {
@@ -261,7 +259,7 @@ font-size: 12px;
 
 .banner {
     padding: 100px 0;
-    background: url(../img/ov-version2.jpg) no-repeat center center;
+    background: url(../img/top_leaves.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -379,9 +377,6 @@ padding-left: 30px;
         float: left;
         margin-top: 15px;
     }
-
-
-
 }
 
 @media(max-width:767px) {
@@ -401,7 +396,4 @@ padding-left: 30px;
         margin-bottom: 0;
         width: 50%;
     }
-
-
-
 }
